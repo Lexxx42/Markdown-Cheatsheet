@@ -333,26 +333,25 @@ Markdown | менее | красивый
 
 [Отличный генератор таблиц в Markdown](https://www.tablesgenerator.com/markdown_tables)
 
-<a name="blockquotes"/>
+<a name="цитаты"/>
 
-## Blockquotes
+## Цитаты
 
 ```no-highlight
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> Блок-цитаты очень удобны в электронной почте для имитации текста ответа.
+> Эта строка является частью той же цитаты.
 
-Quote break.
+Разрыв цитаты.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote. 
+> Это очень длинная строка, которая все равно будет корректно заключена в кавычки при переносе. О боже, давайте продолжим писать, чтобы убедиться, что это достаточно длинная цитата, чтобы проверить что она обрабатывается корректно. Кстати, вы можете *вставить* **Markdown** в цитату. 
 ```
 
-> Blockquotes are very handy in email to emulate reply text.
-> This line is part of the same quote.
+> Блок-цитаты очень удобны в электронной почте для имитации текста ответа.
+> Эта строка является частью той же цитаты.
 
-Quote break.
+Разрыв цитаты.
 
-> This is a very long line that will still be quoted properly when it wraps. Oh boy let's keep writing to make sure this
-> is long enough to actually wrap for everyone. Oh, you can *put* **Markdown** into a blockquote.
+> Это очень длинная строка, которая все равно будет корректно заключена в кавычки при переносе. О боже, давайте продолжим писать, чтобы убедиться, что это достаточно длинная цитата, чтобы проверить что она обрабатывается корректно. Кстати, вы можете *вставить* **Markdown** в цитату. 
 
 <a name="html"/>
 
