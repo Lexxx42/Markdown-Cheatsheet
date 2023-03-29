@@ -231,12 +231,12 @@ Github's и
 синтаксиса.
 
 <pre lang="no-highlight"><code>```javascript
-var s = "JavaScript syntax highlighting";
+var s = "Подсветка синтаксиса JavaScript";
 alert(s);
 ```
  
 ```python
-s = "Python syntax highlighting"
+s = "Подсветка синтаксиса Python"
 print(s)
 ```
  
@@ -247,12 +247,12 @@ print(s)
 </code></pre>
 
 ```javascript
-var s = "JavaScript syntax highlighting";
+var s = "Подсветка синтаксиса JavaScript";
 alert(s);
 ```
 
 ```python
-s = "Python syntax highlighting"
+s = "Подсветка синтаксиса Python"
 print(s)
 ```
 
