@@ -285,53 +285,53 @@ print(s)
 
 Рендерится в:
 
+![rendered footnotes](img/footnotes.png)
 
+<a name="таблицы"/>
 
+## Таблицы
 
-
-![rendered footnotes](https://user-images.githubusercontent.com/425687/160298620-6046b90e-698c-43cb-8e00-5f5871a906ad.png)
-
-<a name="tables"/>
-
-## Tables
-
-Tables aren't part of the core Markdown spec, but they are part of GFM and *Markdown Here* supports them. They are an
-easy way of adding tables to your email -- a task that would otherwise require copy-pasting from another application.
+Таблицы не являются частью основной спецификации Markdown, но они часть GFM и *Markdown Here* поддерживает их. Это
+простой способ добавления таблиц в вашу электронное сообщение -- задача, которая в противном случае потребовала бы
+копирования и вставки из другого приложения.
 
 ```no-highlight
-Colons can be used to align columns.
+Двоеточия можно использовать для выравнивания столбцов.
 
-| Tables        | Are           | Cool  |
-| ------------- |:-------------:| -----:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      | centered      |   $12 |
-| zebra stripes | are neat      |    $1 |
+| Таблицы      |            это            | Клёво |
+|--------------|:-------------------------:|------:|
+| колонка 3    | выравнена по правому краю | $1600 |
+| колонка 2    |    выравнена по центру    |   $12 |
+| полосы зебры |         аккуратные        |    $1 |
 
-There must be at least 3 dashes separating each header cell.
-The outer pipes (|) are optional, and you don't need to make the 
-raw Markdown line up prettily. You can also use inline Markdown.
+Между каждой ячейкой заголовка должно быть не менее 3 дефисов.
+Внешние пайпы (|) опциональны, и вам не нужно красиво выстраивать исходную строку Markdown.
+Вы также можете использовать встроенный Markdown.
 
-Markdown | Less | Pretty
+Markdown | менее | красивый
 --- | --- | ---
-*Still* | `renders` | **nicely**
+*Все равно* | `обрабатывается` | **отлично**
 1 | 2 | 3
 ```
 
-Colons can be used to align columns.
+Двоеточия можно использовать для выравнивания столбцов.
 
-| Tables        |      Are      |  Cool |
-|---------------|:-------------:|------:|
-| col 3 is      | right-aligned | $1600 |
-| col 2 is      |   centered    |   $12 |
-| zebra stripes |   are neat    |    $1 |
+| Таблицы      |            это            | Клёво |
+|--------------|:-------------------------:|------:|
+| колонка 3    | выравнена по правому краю | $1600 |
+| колонка 2    |    выравнена по центру    |   $12 |
+| полосы зебры |         аккуратные        |    $1 |
 
-There must be at least 3 dashes separating each header cell. The outer pipes (|) are optional, and you don't need to
-make the raw Markdown line up prettily. You can also use inline Markdown.
+Между каждой ячейкой заголовка должно быть не менее 3 дефисов.
+Внешние пайпы (|) опциональны, и вам не нужно красиво выстраивать исходную строку Markdown.
+Вы также можете использовать встроенный Markdown.
 
- Markdown | Less      | Pretty     
-----------|-----------|------------
- *Still*  | `renders` | **nicely** 
- 1        | 2         | 3          
+Markdown | менее | красивый
+--- | --- | ---
+*Все равно* | `обрабатывается` | **отлично**
+1 | 2 | 3
+
+[Отличный генератор таблиц в Markdown](https://www.tablesgenerator.com/markdown_tables)
 
 <a name="blockquotes"/>
 
