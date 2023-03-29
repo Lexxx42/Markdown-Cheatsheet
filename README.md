@@ -355,27 +355,27 @@ Markdown | менее | красивый
 
 <a name="html"/>
 
-## Inline HTML
+## Встроенный HTML
 
-You can also use raw HTML in your Markdown, and it'll mostly work pretty well.
+Вы также можете использовать необработанный HTML в своем Markdown, и в основном это будет довольно хорошо работать.
 
 ```no-highlight
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
+<p>Купить в магазине:</p>
+<ul>
+    <li>Чай</li>
+    <li>Кофе</li>
+    <li>Сахар</li>
+</ul>
+<p>Занести домой.</p>
 ```
 
-<dl>
-  <dt>Definition list</dt>
-  <dd>Is something people use sometimes.</dd>
-
-  <dt>Markdown in HTML</dt>
-  <dd>Does *not* work **very** well. Use HTML <em>tags</em>.</dd>
-</dl>
+<p>Купить в магазине:</p>
+<ul>
+    <li>Чай</li>
+    <li>Кофе</li>
+    <li>Сахар</li>
+</ul>
+<p>Занести домой.</p>
 
 <a name="hr"/>
 
