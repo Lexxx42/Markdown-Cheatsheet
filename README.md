@@ -20,7 +20,7 @@
 [Разрывы строк](#строки)  
 [YouTube Видео](#видео)
 
-<a name="headers"/>
+<a name="заголовки"/>
 
 ## Заголовки
 
@@ -61,7 +61,7 @@ Alt-H1
 Alt-H2
 ------
 
-<a name="emphasis"/>
+<a name="форматирование"/>
 
 ## Форматирование
 
@@ -84,7 +84,7 @@ Alt-H2
 Зачёркивание использует два символа тильда (~). ~~Зачеркни это.~~
 
 
-<a name="lists"/>
+<a name="списки"/>
 
 ## Списки
 
@@ -129,85 +129,83 @@ Alt-H2
 
 + Или плюсы.
 
-<a name="links"/>
+<a name="ссылки"/>
 
-## Links
+## Ссылки
 
-There are two ways to create links.
-
-```no-highlight
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links. 
-http://www.example.com or <http://www.example.com> and sometimes 
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-[1]: http://slashdot.org
-[link text itself]: http://www.reddit.com
-```
-
-[I'm an inline-style link](https://www.google.com)
-
-[I'm an inline-style link with title](https://www.google.com "Google's Homepage")
-
-[I'm a reference-style link][Arbitrary case-insensitive reference text]
-
-[I'm a relative reference to a repository file](../blob/master/LICENSE)
-
-[You can use numbers for reference-style link definitions][1]
-
-Or leave it empty and use the [link text itself].
-
-URLs and URLs in angle brackets will automatically get turned into links.
-http://www.example.com or <http://www.example.com> and sometimes
-example.com (but not on Github, for example).
-
-Some text to show that the reference links can follow later.
-
-[arbitrary case-insensitive reference text]: https://www.mozilla.org
-
-[1]: http://slashdot.org
-
-[link text itself]: http://www.reddit.com
-
-<a name="images"/>
-
-## Images
+Существует два способа создания ссылок.
 
 ```no-highlight
-Here's our logo (hover to see the title text):
+[Я встроенная ссылка](https://www.google.com)
 
-Inline-style: 
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+[Я встроенная ссылка с заголовком](https://www.google.com "Главная страница Google")
 
-Reference-style: 
-![alt text][logo]
+[Я справочная ссылка][Произвольный справочный текст без учета регистра]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[Я относительная ссылка на файл репозитория](../blob/main/LICENSE)
+
+[Вы можете использовать числа для определений ссылок в справочном стиле][1]
+
+Или оставить их пыстыми и использовать [непосредственно текст ссылки].
+
+URL-адреса и URL-адреса в угловых скобках автоматически превращаются в ссылки.
+http://www.example.com или <http://www.example.com> и иногда 
+example.com (но не на Github, например).
+
+Некоторый текст, чтобы показать, что справочные ссылки могут следовать позже.
+
+[произвольный справочный текст без учета регистра]: https://www.mozilla.org
+[1]: http://slashdot.org
+[непосредственно текст ссылк]: http://www.reddit.com
 ```
 
-Here's our logo (hover to see the title text):
+[Я встроенная ссылка](https://www.google.com)
 
-Inline-style:
-![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 1")
+[Я встроенная ссылка с заголовком](https://www.google.com "Главная страница Google")
 
-Reference-style:
+[Я справочная ссылка][Произвольный справочный текст без учета регистра]
+
+[Я относительная ссылка на файл репозитория](../blob/main/LICENSE)
+
+[Вы можете использовать числа для определений ссылок в справочном стиле][1]
+
+Или оставить их пыстыми и использовать [непосредственно текст ссылки].
+
+URL-адреса и URL-адреса в угловых скобках автоматически превращаются в ссылки.
+http://www.example.com или <http://www.example.com> и иногда 
+example.com (но не на Github, например).
+
+Некоторый текст, чтобы показать, что справочные ссылки могут следовать позже.
+
+[произвольный справочный текст без учета регистра]: https://www.mozilla.org
+[1]: http://slashdot.org
+[непосредственно текст ссылк]: http://www.reddit.com
+
+<a name="изображения"/>
+
+## Изображения
+
+```no-highlight
+Вот наш логотип (наведите курсор, чтобы увидеть текст заголовка):
+
+Встроенный стиль: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Текст заголовка логотипа 1")
+
+Ссылочный стиль: 
 ![alt text][logo]
 
-[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Logo Title Text 2"
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Текст заголовка логотипа 2"
+```
+
+Вот наш логотип (наведите курсор, чтобы увидеть текст заголовка):
+
+Встроенный стиль: 
+![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Текст заголовка логотипа 1")
+
+Ссылочный стиль: 
+![alt text][logo]
+
+[logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Текст заголовка логотипа 2"
 
 <a name="code"/>
 
