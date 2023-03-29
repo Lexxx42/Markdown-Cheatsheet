@@ -320,16 +320,16 @@ Markdown | менее | красивый
 |--------------|:-------------------------:|------:|
 | колонка 3    | выравнена по правому краю | $1600 |
 | колонка 2    |    выравнена по центру    |   $12 |
-| полосы зебры |         аккуратные        |    $1 |
+| полосы зебры |        аккуратные         |    $1 |
 
 Между каждой ячейкой заголовка должно быть не менее 3 дефисов.
 Внешние пайпы (|) опциональны, и вам не нужно красиво выстраивать исходную строку Markdown.
 Вы также можете использовать встроенный Markdown.
 
-Markdown | менее | красивый
---- | --- | ---
-*Все равно* | `обрабатывается` | **отлично**
-1 | 2 | 3
+ Markdown    | менее            | красивый    
+-------------|------------------|-------------
+ *Все равно* | `обрабатывается` | **отлично** 
+ 1           | 2                | 3           
 
 [Отличный генератор таблиц в Markdown](https://www.tablesgenerator.com/markdown_tables)
 
@@ -351,7 +351,10 @@ Markdown | менее | красивый
 
 Разрыв цитаты.
 
-> Это очень длинная строка, которая все равно будет корректно заключена в кавычки при переносе. О боже, давайте продолжим писать, чтобы убедиться, что это достаточно длинная цитата, чтобы проверить что она обрабатывается корректно. Кстати, вы можете *вставить* **Markdown** в цитату. 
+> Это очень длинная строка, которая все равно будет корректно заключена в кавычки при переносе. О боже, давайте
+> продолжим писать, чтобы убедиться, что это достаточно длинная цитата, чтобы проверить что она обрабатывается
+> корректно.
+> Кстати, вы можете *вставить* **Markdown** в цитату.
 
 <a name="html"/>
 
@@ -411,33 +414,35 @@ ___
 
 Нижние подчиркивания
 
-<a name="lines"/>
+<a name="строки"/>
 
-## Line Breaks
+## Разрывы строк
 
-My basic recommendation for learning how line breaks work is to experiment and discover -- hit &lt;Enter&gt; once (i.e.,
-insert one newline), then hit it twice (i.e., insert two newlines), see what happens. You'll soon learn to get what you
-want. "Markdown Toggle" is your friend.
+Моя основная рекомендация для изучения того, как работают разрывы строк, заключается в том, чтобы экспериментировать и
+узнавать новое -- нижмите &lt;Enter&gt; один раз (т.е.
+вставьте одну новую строку), затем дважды нажмите его (т. е. вставьте две новые строки), посмотрите, что произойдет.
+Вы скоро научитесь получать то, что хотите. "Markdown Toggle" ваш друг.
 
-Here are some things to try out:
+Вот что можно попробовать:
 
 ```
-Here's a line for us to start with.
+Вот линия для начала.
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+Эта строка отделена от предыдущей двумя символами новой строки, так что это будет *отдельный абзац*.
 
-This line is also a separate paragraph, but...
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+Эта строка тоже отдельный абзац, но...
+Эта строка отделена только одной новой строкой, поэтому это отдельная строка в *том же абзаце*.
 ```
 
-Here's a line for us to start with.
+Вот линия для начала.
 
-This line is separated from the one above by two newlines, so it will be a *separate paragraph*.
+Эта строка отделена от предыдущей двумя символами новой строки, так что это будет *отдельный абзац*.
 
-This line is also begins a separate paragraph, but...  
-This line is only separated by a single newline, so it's a separate line in the *same paragraph*.
+Эта строка тоже отдельный абзац, но...
+Эта строка отделена только одной новой строкой, поэтому это отдельная строка в *том же абзаце*.
 
-(Technical note: *Markdown Here* uses GFM line breaks, so there's no need to use MD's two-space line breaks.)
+(Техническое примечание: *Markdown Тут* использует GFM разрывы линий, поэтому нет необходимости использовать разрывы
+строк с двумя пробелами в MD.)
 
 <a name="videos"/>
 
