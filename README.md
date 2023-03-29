@@ -261,29 +261,33 @@ print(s)
 Но попробуем использовать HTML <b>тэг</b>.
 ```
 
-<a name="footnotes"/>
+<a name="сноски"/>
 
-## Footnotes
+## Сноски
 
-Footnotes aren't part of the core Markdown spec, but
-they [supported by GFM](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes).
+Сноски не являются частью основной спецификации Markdown, но
+они [поддерживаются GFM](https://docs.github.com/ru/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax#footnotes).
 
 ```no-highlight
-Here is a simple footnote[^1].
+Вот простая сноска[^1].
 
-A footnote can also have multiple lines[^2].  
+Сноска также может состоять из нескольких строк[^2].  
 
-You can also use words, to fit your writing style more closely[^note].
+Вы также можете использовать слова, чтобы лучше соответствовать вашему стилю письма[^сноска].
 
-[^1]: My reference.
-[^2]: Every new line should be prefixed with 2 spaces.  
-  This allows you to have a footnote with multiple lines.
-[^note]:
-    Named footnotes will still render with numbers instead of the text but allow easier identification and linking.  
-    This footnote also has been made with a different syntax using 4 spaces for new lines.
+[^1]: Моя ссылка.
+[^2]: Каждая новая строка должна начинаться с 2 пробелов.  
+  Это позволяет вам иметь сноску с несколькими строками.
+[^сноска]:
+    Именованные сноски по-прежнему будут отображаться с номерами вместо текста, но упрощают идентификацию и связывание.  
+    Эта сноска также была сделана с другим синтаксисом, используя 4 пробела для новых строк.
 ```
 
-Renders to:
+Рендерится в:
+
+
+
+
 
 ![rendered footnotes](https://user-images.githubusercontent.com/425687/160298620-6046b90e-698c-43cb-8e00-5f5871a906ad.png)
 
