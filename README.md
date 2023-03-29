@@ -444,11 +444,11 @@ ___
 (Техническое примечание: *Markdown Тут* использует GFM разрывы линий, поэтому нет необходимости использовать разрывы
 строк с двумя пробелами в MD.)
 
-<a name="videos"/>
+<a name="видео"/>
 
-## YouTube Videos
+## YouTube Видео
 
-They can't be added directly but you can add an image with a link to the video like this:
+Их нельзя добавить напрямую, но вы можете добавить изображение со ссылкой на видео следующим образом:
 
 ```no-highlight
 <a href="http://www.youtube.com/watch?feature=player_embedded&v=YOUTUBE_VIDEO_ID_HERE
@@ -456,16 +456,21 @@ They can't be added directly but you can add an image with a link to the video l
 alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 ```
 
-Or, in pure Markdown, but losing the image sizing and border:
+Или, на чистом Markdown, но потеряв размер изображения и границы:
 
 ```no-highlight
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/YOUTUBE_VIDEO_ID_HERE/0.jpg)](http://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID_HERE)
 ```
 
+[![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/I3ancZuG4cg/0.jpg)](http://www.youtube.com/watch?v=I3ancZuG4cg)
+
+Можно встроить YouTube видео в страницу с Markdown используя [markdown-videos.deta.dev](markdown-videos.deta.dev)
+
+[![](https://markdown-videos.deta.dev/youtube/I3ancZuG4cg)](https://youtu.be/I3ancZuG4cg)
+
 Referencing a bug by #bugID in your git commit links it to the slip. For example #1.
 
 ---
 
-License: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
-Original
-source: [Markdown-Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+Лицензия: [CC-BY](https://creativecommons.org/licenses/by/3.0/)
+Источник: [Markdown-Cheatsheet by Adam Pritchard](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
