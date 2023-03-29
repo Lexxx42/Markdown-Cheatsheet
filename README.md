@@ -464,7 +464,7 @@ alt="IMAGE ALT TEXT HERE" width="240" height="180" border="10" /></a>
 
 [![IMAGE ALT TEXT HERE](http://img.youtube.com/vi/I3ancZuG4cg/0.jpg)](http://www.youtube.com/watch?v=I3ancZuG4cg)
 
-Можно встроить YouTube видео в страницу с Markdown используя [markdown-videos.deta.dev](markdown-videos.deta.dev)
+Можно встроить YouTube видео в страницу с Markdown используя [Snailedlt API](https://github.com/Snailedlt/Markdown-Videos)
 
 [![](https://markdown-videos.deta.dev/youtube/I3ancZuG4cg)](https://youtu.be/I3ancZuG4cg)
 
