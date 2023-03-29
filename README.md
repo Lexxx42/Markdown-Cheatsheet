@@ -1,31 +1,28 @@
 # Markdown-Cheatsheet
 
-This is intended as a quick reference and showcase. For more complete info,
-see [John Gruber's original spec](http://daringfireball.net/projects/markdown/) and
-the [Github-flavored Markdown info page](http://github.github.com/github-flavored-markdown/).
+Этот материал предназначен как краткий справочник и демонстрация. Для получения более полной информации
+см. [оригинальную спецификацию Джона Грубера](http://daringfireball.net/projects/markdown/)
+и [Создание документов на GitHub](https://docs.github.com/ru/get-started/writing-on-github).
 
-Note that there is also a [Cheatsheet specific to Markdown Here](./Markdown-Here-Cheatsheet) if that's what you're
-looking for. You can also check out [more Markdown tools](./Other-Markdown-Tools).
+##### Содержание
 
-##### Table of Contents
-
-[Headers](#headers)  
-[Emphasis](#emphasis)  
-[Lists](#lists)  
-[Links](#links)  
-[Images](#images)  
-[Code and Syntax Highlighting](#code)  
-[Footnotes](#footnotes)  
-[Tables](#tables)  
-[Blockquotes](#blockquotes)  
-[Inline HTML](#html)  
-[Horizontal Rule](#hr)  
-[Line Breaks](#lines)  
-[YouTube Videos](#videos)
+[Заголовки](#заголовки)  
+[Форматирование](#форматирование)  
+[Списки](#списки)  
+[Ссылки](#ссылки)  
+[Изображения](#изображения)  
+[Код и Подсветка Синтаксиса](#код)  
+[Сноски](#сноски)  
+[Таблицы](#таблицы)  
+[Цитаты](#цитаты)  
+[Встроенный HTML](#html)  
+[Горизонтальная черта](#hr)  
+[Разрывы строк](#строки)  
+[YouTube Видео](#видео)
 
 <a name="headers"/>
 
-## Headers
+## Заголовки
 
 ```no-highlight
 # H1
@@ -35,7 +32,7 @@ looking for. You can also check out [more Markdown tools](./Other-Markdown-Tools
 ##### H5
 ###### H6
 
-Alternatively, for H1 and H2, an underline-ish style:
+Альтернативно, для H1 и H2, подчеркнутый стиль:
 
 Alt-H1
 ======
@@ -56,7 +53,7 @@ Alt-H2
 
 ###### H6
 
-Alternatively, for H1 and H2, an underline-ish style:
+Альтернативно, для H1 и H2, подчеркнутый стиль:
 
 Alt-H1
 ======
@@ -66,73 +63,71 @@ Alt-H2
 
 <a name="emphasis"/>
 
-## Emphasis
+## Форматирование
 
 ```no-highlight
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Форматирование курсивом со *звёздочками* или _нижним подчёркиванием_.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Форматирование жирным с **двойными звёздочками** или __двойным нижним подчёркиванием__.
 
-Combined emphasis with **asterisks and _underscores_**.
+Комбинированное форматирование с **двойными звёздочками и _нижним подчёркиванием_**.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+Зачёркивание использует два символа тильда (~). ~~Зачеркни это.~~
 ```
 
-Emphasis, aka italics, with *asterisks* or _underscores_.
+Форматирование курсивом со *звёздочками* или _нижним подчёркиванием_.
 
-Strong emphasis, aka bold, with **asterisks** or __underscores__.
+Форматирование жирным с **двойными звёздочками** или __двойным нижним подчёркиванием__.
 
-Combined emphasis with **asterisks and _underscores_**.
+Комбинированное форматирование с **двойными звёздочками и _нижним подчёркиванием_**.
 
-Strikethrough uses two tildes. ~~Scratch this.~~
+Зачёркивание использует два символа тильда (~). ~~Зачеркни это.~~
 
 
 <a name="lists"/>
 
-## Lists
+## Списки
 
-(In this example, leading and trailing spaces are shown with with dots: ⋅)
+(В этом примере начальные и конечные пробелы отмечены точками: ⋅)
 
 ```no-highlight
-1. First ordered list item
-2. Another item
-⋅⋅* Unordered sub-list. 
-1. Actual numbers don't matter, just that it's a number
-⋅⋅1. Ordered sub-list
-4. And another item.
+1. Первый элемент нумерованного списка.
+2. Следующий.
+⋅⋅* Маркированный подсписок.
+1. Фактические числа не имеют значения, это просто число.
+⋅⋅1. Нумерованный подсписок.
+4. И ещё один элемент списка.
 
-⋅⋅⋅You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at least one, but we'll use three here to also align the raw Markdown).
+⋅⋅⋅Вы можете иметь правильный отступ абзацев в элементах списка.Обратите внимание на пустую строку выше и начальные пробелы (по крайней мере, один, но здесь мы будем использовать три, чтобы также выровнять необработанный Markdown).
 
-⋅⋅⋅To have a line break without a paragraph, you will need to use two trailing spaces.⋅⋅
-⋅⋅⋅Note that this line is separate, but within the same paragraph.⋅⋅
-⋅⋅⋅(This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+⋅⋅⋅Чтобы получить разрыв строки без абзаца, вам нужно будет использовать два пробела в конце.⋅⋅
+⋅⋅⋅Обратите внимание, что эта строка является отдельной, но в пределах одного абзаца.⋅⋅
+⋅⋅⋅(Это противоречит типичному поведению разрыва строки GFM, когда конечные пробелы не требуются.)
 
-* Unordered list can use asterisks
-- Or minuses
-+ Or pluses
+* Маркированные списки могут использовать звёздочки.
+- Или минусы.
++ Или плюсы.
 ```
 
-1. First ordered list item
-2. Another item
+1. Первый элемент нумерованного списка.
+2. Следующий.
+    * Маркированный подсписок.
+1. Фактические числа не имеют значения, это просто число.
+    1. Нумерованный подсписок.
+4. И ещё один элемент списка.
 
-* Unordered sub-list.
+   Вы можете иметь правильный отступ абзацев в элементах списка.Обратите внимание на пустую строку выше и начальные
+   пробелы (по крайней мере, один, но здесь мы будем использовать три, чтобы также выровнять необработанный Markdown).
 
-1. Actual numbers don't matter, just that it's a number
-1. Ordered sub-list
-4. And another item.
+Чтобы получить разрыв строки без абзаца, вам нужно будет использовать два пробела в конце.   
+Обратите внимание, что эта строка является отдельной, но в пределах одного абзаца.   
+(Это противоречит типичному поведению разрыва строки GFM, когда конечные пробелы не требуются.)
 
-   You can have properly indented paragraphs within list items. Notice the blank line above, and the leading spaces (at
-   least one, but we'll use three here to also align the raw Markdown).
+* Маркированные списки могут использовать звёздочки.
 
-   To have a line break without a paragraph, you will need to use two trailing spaces.  
-   Note that this line is separate, but within the same paragraph.  
-   (This is contrary to the typical GFM line break behaviour, where trailing spaces are not required.)
+- Или минусы.
 
-* Unordered list can use asterisks
-
-- Or minuses
-
-+ Or pluses
++ Или плюсы.
 
 <a name="links"/>
 
