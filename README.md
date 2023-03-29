@@ -172,13 +172,15 @@ example.com (но не на Github, например).
 Или оставить их пыстыми и использовать [непосредственно текст ссылки].
 
 URL-адреса и URL-адреса в угловых скобках автоматически превращаются в ссылки.
-http://www.example.com или <http://www.example.com> и иногда 
+http://www.example.com или <http://www.example.com> и иногда
 example.com (но не на Github, например).
 
 Некоторый текст, чтобы показать, что справочные ссылки могут следовать позже.
 
 [произвольный справочный текст без учета регистра]: https://www.mozilla.org
+
 [1]: http://slashdot.org
+
 [непосредственно текст ссылк]: http://www.reddit.com
 
 <a name="изображения"/>
@@ -199,32 +201,34 @@ example.com (но не на Github, например).
 
 Вот наш логотип (наведите курсор, чтобы увидеть текст заголовка):
 
-Встроенный стиль: 
+Встроенный стиль:
 ![alt text](https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Текст заголовка логотипа 1")
 
-Ссылочный стиль: 
+Ссылочный стиль:
 ![alt text][logo]
 
 [logo]: https://github.com/adam-p/markdown-here/raw/master/src/common/images/icon48.png "Текст заголовка логотипа 2"
 
-<a name="code"/>
+<a name="код"/>
 
-## Code and Syntax Highlighting
+## Код и Подсветка Синтаксиса
 
-Code blocks are part of the Markdown spec, but syntax highlighting isn't. However, many renderers -- like Github's and
-*Markdown Here* -- support syntax highlighting. Which languages are supported and how those language names should be
-written will vary from renderer to renderer. *Markdown Here* supports highlighting for dozens of languages (and
-not-really-languages, like diffs and HTTP headers); to see the complete list, and how to write the language names, see
-the [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
+Блоки кода являются частью спецификации Markdown, а подсветка синтаксиса -- нет. Однако многие рендеры, -- такие как
+Github's и
+*Markdown Here* -- поддерживают подсветку синтаксиса. Какие языки поддерживаются и как должны быть написаны имена этих
+языков, зависит от средства визуализации. *Markdown Here* поддерживает подстветку десятков языков (и
+не вовсем языков, как diffs и HTTP заголовки); чтобы увидеть полный список, и написание имен языков,
+посмотри [highlight.js demo page](http://softwaremaniacs.org/media/soft/highlight/test.html).
 
 ```no-highlight
-Inline `code` has `back-ticks around` it.
+Встроенный `код` имеет `обратные кавычки вокруг` него.
 ```
 
-Inline `code` has `back-ticks around` it.
+Встроенный `код` имеет `обратные кавычки вокруг` него.
 
-Blocks of code are either fenced by lines with three back-ticks <code>```</code>, or are indented with four spaces. I
-recommend only using the fenced code blocks -- they're easier and only they support syntax highlighting.
+Блоки кода либо обрамляются строками с тремя обратными галочками <code>```</code>, либо имеют отступ в четыре пробела. Я
+рекомендую использовать только обрамлённые блоки кода -- их использовать проще и только они поддерживают подстветку
+синтаксиса.
 
 <pre lang="no-highlight"><code>```javascript
 var s = "JavaScript syntax highlighting";
@@ -233,12 +237,12 @@ alert(s);
  
 ```python
 s = "Python syntax highlighting"
-print s
+print(s)
 ```
  
 ```
-No language indicated, so no syntax highlighting. 
-But let's throw in a &lt;b&gt;tag&lt;/b&gt;.
+Не указан язык, поэтому подстветка синтаксиса не работает. 
+Но попробуем использовать HTML &lt;b&gt;тэг&lt;/b&gt;.
 ```
 </code></pre>
 
@@ -253,8 +257,8 @@ print(s)
 ```
 
 ```
-No language indicated, so no syntax highlighting in Markdown Here (varies on Github). 
-But let's throw in a <b>tag</b>.
+Не указан язык, поэтому подстветка синтаксиса не работает. (Иногда различается в GitHub)
+Но попробуем использовать HTML <b>тэг</b>.
 ```
 
 <a name="footnotes"/>
