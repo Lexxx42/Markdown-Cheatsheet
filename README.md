@@ -379,37 +379,37 @@ Markdown | менее | красивый
 
 <a name="hr"/>
 
-## Horizontal Rule
+## Горизонтальная черта
 
 ```
-Three or more...
+Три или больше...
 
 ---
 
-Hyphens
+Дефисы
 
 ***
 
-Asterisks
+Звёздочки
 
 ___
 
-Underscores
+Нижние подчиркивания
 ```
 
-Three or more...
+Три или больше...
 
 ---
 
-Hyphens
+Дефисы
 
 ***
 
-Asterisks
+Звёздочки
 
 ___
 
-Underscores
+Нижние подчиркивания
 
 <a name="lines"/>
 
